@@ -1,7 +1,6 @@
 
 # Kiran DevHub README
 
-> **Note:** This is a starter profile README with a polished layout. Replace placeholder links with your own.
 
 <div align="center">
 
