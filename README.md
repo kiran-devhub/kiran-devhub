@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Banner](https://capsule-render.vercel.app/api?type=shark&color=0:0D1117,100:00FF41&height=200&text=Kiran%20Kumar%20Behera&fontColor=00FF41&fontSize=40&fontAlignY=55&desc=Full%20Stack%20Web%20Developer%20%7C%20Cybersecurity%20%26%20Ethical%20Hacking%20Enthusiast&descSize=15&descAlignY=75&descColor=00D4AA)](https://github.com/kiran-devhub)
+[![Banner](https://capsule-render.vercel.app/api?type=shark&color=0:0D1117,100:00FF41&height=200&text=Kiran%20Kumar%20Behera&fontColor=00FF41&fontSize=40&fontAlignY=45&desc=Full%20Stack%20Web%20Developer%20%7C%20Cybersecurity%20%26%20Ethical%20Hacking%20Enthusiast&descSize=15&descAlignY=62&descColor=00D4AA)](https://github.com/kiran-devhub)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=860&lines=%24+whoami+%7C+Kiran+Kumar+Behera+%7C+Full+Stack+Dev+%2B+Ethical+Hacker;%24+cat+stack.txt+%7C+React+%7C+Node.js+%7C+Python+%7C+MongoDB+%7C+JWT;%24+ls+projects%2F+%7C+SecureAuth+%7C+Portfolio+%7C+WebSecPlayground;%24+nmap+--learning+%7C+OWASP+Top+10+%7C+Linux+%7C+Web+Security;%24+sudo+hire+--kiran+%7C+Open+to+Internships)](https://github.com/kiran-devhub)
 
@@ -22,9 +22,9 @@
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-00FF41?style=for-the-badge&labelColor=0D1117)](https://your-portfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00D4AA?style=for-the-badge&logo=linkedin&logoColor=0D1117&labelColor=0D1117)](https://linkedin.com/in/kiran-devhub)
-[![Email](https://img.shields.io/badge/Email-Hire%20Me-00FF41?style=for-the-badge&logo=gmail&logoColor=0D1117&labelColor=0D1117)](mailto:your.email@example.com)
-[![GitHub](https://img.shields.io/badge/GitHub-%40kiran--devhub-00D4AA?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117)](https://github.com/kiran-devhub)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00D4AA?style=for-the-badge&logo=linkedin&logoColor=00FF41&labelColor=0D1117)](https://linkedin.com/in/kiran-devhub)
+[![Email](https://img.shields.io/badge/Email-Hire%20Me-00FF41?style=for-the-badge&logo=gmail&logoColor=00D4AA&labelColor=0D1117)](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-%40kiran--devhub-00D4AA?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0D1117)](https://github.com/kiran-devhub)
 
 </div>
 
@@ -33,8 +33,8 @@
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=kiran-devhub&color=00FF41&style=flat-square&label=Profile+Views)
-![GitHub Followers](https://img.shields.io/github/followers/kiran-devhub?color=00FF41&style=flat-square&logo=github&label=Followers&labelColor=0D1117)
-![GitHub Stars](https://img.shields.io/github/stars/kiran-devhub?affiliations=OWNER&color=00D4AA&style=flat-square&logo=github&label=Stars&labelColor=0D1117)
+![GitHub Followers](https://img.shields.io/github/followers/kiran-devhub?color=00FF41&style=flat-square&logo=github&logoColor=00FF41&label=Followers&labelColor=0D1117)
+![GitHub Stars](https://img.shields.io/github/stars/kiran-devhub?affiliations=OWNER&color=00D4AA&style=flat-square&logo=github&logoColor=00D4AA&label=Stars&labelColor=0D1117)
 
 </div>
 
@@ -117,7 +117,7 @@ OPEN_TO=["Full Stack Developer Internship", "Cybersecurity Internship", "Open So
 | **Highlights** | JWT-based auth, bcrypt password hashing, protected route middleware, session management |
 | **Impact** | Production-grade secure auth patterns applicable to real-world applications |
 
-[![View Repo](https://img.shields.io/badge/View%20Repo-GitHub-00FF41?style=flat-square&logo=github&logoColor=0D1117&labelColor=0D1117)](https://github.com/kiran-devhub)
+[![View Repo](https://img.shields.io/badge/View%20Repo-GitHub-00FF41?style=flat-square&logo=github&logoColor=00FF41&labelColor=0D1117)](https://github.com/kiran-devhub)
 
 </details>
 
@@ -132,7 +132,7 @@ OPEN_TO=["Full Stack Developer Internship", "Cybersecurity Internship", "Open So
 | **Highlights** | Fully responsive, component-driven architecture, modern design patterns |
 | **Impact** | Professional web presence showcasing projects, skills, and contact information |
 
-[![View Repo](https://img.shields.io/badge/View%20Repo-GitHub-00FF41?style=flat-square&logo=github&logoColor=0D1117&labelColor=0D1117)](https://github.com/kiran-devhub)
+[![View Repo](https://img.shields.io/badge/View%20Repo-GitHub-00FF41?style=flat-square&logo=github&logoColor=00FF41&labelColor=0D1117)](https://github.com/kiran-devhub)
 
 </details>
 
@@ -147,7 +147,7 @@ OPEN_TO=["Full Stack Developer Internship", "Cybersecurity Internship", "Open So
 | **Highlights** | Safe OWASP Top 10 demos: XSS, SQLi, CSRF and more |
 | **Impact** | Practical learning environment for understanding and mitigating web security flaws |
 
-[![View Repo](https://img.shields.io/badge/View%20Repo-GitHub-00FF41?style=flat-square&logo=github&logoColor=0D1117&labelColor=0D1117)](https://github.com/kiran-devhub)
+[![View Repo](https://img.shields.io/badge/View%20Repo-GitHub-00FF41?style=flat-square&logo=github&logoColor=00FF41&labelColor=0D1117)](https://github.com/kiran-devhub)
 
 </details>
 
@@ -198,10 +198,10 @@ OPEN_TO=["Full Stack Developer Internship", "Cybersecurity Internship", "Open So
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kiran-devhub&show_icons=true&bg_color=0D1117&title_color=00FF41&icon_color=00D4AA&text_color=C9D1D9&border_color=00FF41&border_radius=10&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://streak-stats.demolab.com/?user=kiran-devhub&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00D4AA&sideNums=00FF41&sideLabels=C9D1D9&dates=C9D1D9&stroke=00FF41&border=00FF41" />
+<img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api?username=kiran-devhub&show_icons=true&bg_color=0D1117&title_color=00FF41&icon_color=00D4AA&text_color=C9D1D9&border_color=00FF41&border_radius=10&count_private=true&hide_border=false" />
+<img height="180em" src="https://streak-stats.demolab.com/?user=kiran-devhub&background=0D1117&ring=00FF41&fire=00FF41&currStreakNum=00FF41&currStreakLabel=00D4AA&sideNums=00FF41&sideLabels=C9D1D9&dates=C9D1D9&border=00FF41" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-devhub&layout=compact&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9&border_color=00FF41&border_radius=10&langs_count=8" />
+<img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=kiran-devhub&layout=compact&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9&border_color=00FF41&border_radius=10&langs_count=8&hide_border=false" />
 
 </div>
 
@@ -211,7 +211,7 @@ OPEN_TO=["Full Stack Developer Internship", "Cybersecurity Internship", "Open So
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=kiran-devhub&theme=matrix&no-frame=true&column=7&margin-w=8&margin-h=8)](https://github.com/kiran-devhub)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=kiran-devhub&theme=matrix&no-frame=true&no-bg=true&column=6&margin-w=8&margin-h=8)](https://github.com/kiran-devhub)
 
 </div>
 
@@ -246,17 +246,20 @@ OPEN_TO=["Full Stack Developer Internship", "Cybersecurity Internship", "Open So
 
 ---
 
-## `$ ./snake_game --play`
+## `$ ./snake_game --setup-required`
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kiran-devhub/kiran-devhub/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kiran-devhub/kiran-devhub/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/kiran-devhub/kiran-devhub/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
+```bash
+# Snake animation needs a one-time GitHub Action setup.
+# Create this file in your repo: .github/workflows/snake.yml
+# Then go to Actions tab → Run workflow manually.
+# Once the Action runs, replace this block with:
+#
+# <picture>
+#   <source media="(prefers-color-scheme: dark)"
+#     srcset="https://raw.githubusercontent.com/kiran-devhub/kiran-devhub/output/github-contribution-grid-snake-dark.svg" />
+#   <img src="https://raw.githubusercontent.com/kiran-devhub/kiran-devhub/output/github-contribution-grid-snake.svg" />
+# </picture>
+```
 
 ---
 
@@ -292,10 +295,10 @@ open_to:
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-00FF41?style=for-the-badge&labelColor=0D1117)](https://your-portfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00D4AA?style=for-the-badge&logo=linkedin&logoColor=0D1117&labelColor=0D1117)](https://linkedin.com/in/kiran-devhub)
-[![GitHub](https://img.shields.io/badge/GitHub-%40kiran--devhub-00FF41?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117)](https://github.com/kiran-devhub)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-00D4AA?style=for-the-badge&logo=gmail&logoColor=0D1117&labelColor=0D1117)](mailto:your.email@example.com)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-00FF41?style=for-the-badge&logo=instagram&logoColor=0D1117&labelColor=0D1117)](https://instagram.com/your_handle)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00D4AA?style=for-the-badge&logo=linkedin&logoColor=00FF41&labelColor=0D1117)](https://linkedin.com/in/kiran-devhub)
+[![GitHub](https://img.shields.io/badge/GitHub-%40kiran--devhub-00FF41?style=for-the-badge&logo=github&logoColor=00D4AA&labelColor=0D1117)](https://github.com/kiran-devhub)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-00D4AA?style=for-the-badge&logo=gmail&logoColor=00FF41&labelColor=0D1117)](mailto:your.email@example.com)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-00FF41?style=for-the-badge&logo=instagram&logoColor=00D4AA&labelColor=0D1117)](https://instagram.com/your_handle)
 
 ---
 
