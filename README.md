@@ -16,16 +16,6 @@
 
 ---
 
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=kiran-devhub&label=Profile+Views&color=7dd3fc&style=flat-square)
-![GitHub Followers](https://img.shields.io/github/followers/kiran-devhub?label=Followers&style=flat-square&color=7dd3fc&labelColor=0D1117)
-![GitHub Stars](https://img.shields.io/github/stars/kiran-devhub?affiliations=OWNER&label=Stars&style=flat-square&color=7dd3fc&labelColor=0D1117)
-
-</div>
-
----
-
 ## `$ cat about_me.txt`
 
 I'm a **Full Stack Developer** building secure, scalable web applications, with a strong parallel interest in **cybersecurity** — from OWASP Top 10 fundamentals to secure authentication design. I like combining solid frontend/backend engineering with a security-first mindset, and I'm actively leveling up in both web development and ethical hacking fundamentals.
@@ -129,15 +119,7 @@ open_to:
 
 ---
 
-## `$ sudo trophy --display`
 
-<div align="center">
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=kiran-devhub&theme=nord&no-frame=true&no-bg=true&margin-w=8&row=1)](https://github.com/kiran-devhub)
-
-</div>
-
----
 
 ## `$ tail -f activity.log`
 
