@@ -1,25 +1,34 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.com/api?type=waving&color=0:7dd3fc,100:0ea5e9&height=200&section=header&text=Hi%20👋,%20I'm%20kiran-devhub&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20Secure%20Web%20Applications%20|%20Cybersecurity&descAlignY=55&descSize=18" alt="header banner"/>
+[![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:7dd3fc&height=200&section=header&text=Kiran%20Kumar%20Behera&fontColor=7dd3fc&fontSize=40&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Secure%20Web%20Applications%20%7C%20Cybersecurity&descSize=15&descAlignY=58&descColor=c9d1d9&animation=twinkling)](https://github.com/kiran-devhub)
 
-<a href="https://github.com/kiran-devhub">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%7C+MERN+%2B+Next.js;Building+Secure+Web+Applications;Cybersecurity+Enthusiast+%7C+OWASP+Top+10;AI-assisted+%2F+Vibe+Coding;Open+to+Internships+%26+Entry-Level+Roles" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<img src="https://img.shields.io/badge/Open%20to%20Work-Full%20Stack%20Internships%20%7C%20Entry--Level%20SWE%20%7C%20Cybersecurity%20Internships%20%7C%20Open%20Source-7dd3fc?style=for-the-badge&labelColor=0b1120" alt="open to work badge"/>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=kiran-devhub&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="profile views"/>
-<img src="https://img.shields.io/github/followers/kiran-devhub?label=Followers&style=flat-square&color=7dd3fc&labelColor=0b1120" alt="followers"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=800&color=7DD3FC&center=true&vCenter=true&width=860&lines=%24+whoami+%7C+Kiran+Kumar+Behera+%2F+kiran-devhub;%24+cat+stack.txt+%7C+React+%7C+Node.js+%7C+Python+%7C+MongoDB+%7C+JWT;%24+cat+focus.txt+%7C+OWASP+Top+10+%7C+Secure+Auth+%7C+Web+Security;%24+sudo+hire+--kiran+%7C+Open+to+Internships)](https://github.com/kiran-devhub)
 
 </div>
 
-<br/>
+---
 
-## 🧑‍💻 Who I Am
+<div align="center">
+
+![Open to Work](https://img.shields.io/badge/Open%20to%20Work-Full%20Stack%20Internships%20%7C%20Entry--Level%20SWE%20%7C%20Cybersecurity%20Internships%20%7C%20Open%20Source-7dd3fc?style=for-the-badge&labelColor=0D1117)
+
+</div>
+
+---
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=kiran-devhub&label=Profile+Views&color=7dd3fc&style=flat-square)
+![GitHub Followers](https://img.shields.io/github/followers/kiran-devhub?label=Followers&style=flat-square&color=7dd3fc&labelColor=0D1117)
+![GitHub Stars](https://img.shields.io/github/stars/kiran-devhub?affiliations=OWNER&label=Stars&style=flat-square&color=7dd3fc&labelColor=0D1117)
+
+</div>
+
+---
+
+## `$ cat about_me.txt`
+
+I'm a **Full Stack Developer** building secure, scalable web applications, with a strong parallel interest in **cybersecurity** — from OWASP Top 10 fundamentals to secure authentication design. I like combining solid frontend/backend engineering with a security-first mindset, and I'm actively leveling up in both web development and ethical hacking fundamentals.
 
 ```typescript
 const kiran = {
@@ -50,42 +59,67 @@ const kiran = {
 } as const;
 ```
 
-<br/>
+---
 
-## 🛠️ Tech Stack
+## `$ ls -la tech_stack/`
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=js,ts,py,java,cpp&theme=dark" alt="languages"/>
+[![Languages](https://skillicons.dev/icons?i=js,ts,py,java,cpp&theme=dark)](https://skillicons.dev)
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" alt="frontend"/>
+[![Frontend](https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark)](https://skillicons.dev)
 
 **Backend & Infra**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="backend"/>
+[![Backend](https://skillicons.dev/icons?i=nodejs,express&theme=dark)](https://skillicons.dev)
 
 **Cloud & Deployment**
 
-<img src="https://skillicons.dev/icons?i=vercel,netlify,github&theme=dark" alt="cloud"/>
+[![Cloud](https://skillicons.dev/icons?i=vercel,netlify,github&theme=dark)](https://skillicons.dev)
 
 **Databases & AI Tools**
 
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,supabase,firebase,openai,gemini&theme=dark" alt="ai and db"/>
+[![Databases and AI](https://skillicons.dev/icons?i=mongodb,mysql,supabase,firebase,openai,gemini&theme=dark)](https://skillicons.dev)
 
 **Dev Tools & OS**
 
-<img src="https://skillicons.dev/icons?i=git,linux,windows,vscode,postman,figma&theme=dark" alt="dev tools"/>
+[![Tools](https://skillicons.dev/icons?i=git,linux,windows,vscode,postman,figma&theme=dark)](https://skillicons.dev)
 
-<br/>
+---
 
-## 📊 GitHub Stats
+## `$ cat current_focus.yaml`
+
+```yaml
+learning:
+  - "Node.js — REST APIs, middleware architecture, auth flows"
+  - "React / Next.js — component architecture, performance"
+  - "Web security — OWASP Top 10, protected routes, secure auth patterns"
+
+building:
+  - "Secure, full-stack web applications (MERN + Next.js)"
+  - "Authentication systems using JWT, bcrypt, and Clerk"
+
+exploring:
+  - "Cybersecurity fundamentals and ethical hacking basics (Kali Linux)"
+  - "AI-assisted development workflows"
+
+open_to:
+  - "Full Stack Developer Internships"
+  - "Entry-Level Software Engineer Roles"
+  - "Cybersecurity Internships"
+  - "Open Source Contributions"
+```
+
+---
+
+## `$ git analytics --all`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=kiran-devhub&show_icons=true&theme=nord&hide_border=true&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9" alt="github stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-devhub&layout=compact&theme=nord&hide_border=true&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9" alt="top languages" height="165"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=kiran-devhub&show_icons=true&theme=nord&hide_border=true&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-devhub&layout=compact&theme=nord&hide_border=true&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9" />
 
 <br/>
 
@@ -93,40 +127,42 @@ const kiran = {
 
 </div>
 
-<br/>
+---
 
-## 🏆 Trophies
+## `$ sudo trophy --display`
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=kiran-devhub&theme=nord&no-frame=true&no-bg=true&margin-w=8&row=1" alt="trophies"/>
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=kiran-devhub&theme=nord&no-frame=true&no-bg=true&margin-w=8&row=1)](https://github.com/kiran-devhub)
+
+</div>
+
+---
+
+## `$ tail -f activity.log`
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kiran-devhub&theme=react-dark&hide_border=true&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&area_color=7dd3fc)](https://github.com/kiran-devhub)
+
+</div>
+
+---
+
+## `$ ./connect.sh --all`
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-7dd3fc?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117)](https://kkbportfolio.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-7dd3fc?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117)](https://github.com/kiran-devhub)
+[![Email](https://img.shields.io/badge/Email-7dd3fc?style=for-the-badge&logo=gmail&logoColor=0D1117&labelColor=0D1117)](mailto:kiran.devhub@gmail.com)
+
 </div>
 
 <br/>
 
-## 📈 Contribution Activity
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kiran-devhub&theme=react-dark&hide_border=true&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&area_color=7dd3fc" alt="activity graph"/>
-</div>
-
-<br/>
-
-## 🔗 Connect With Me
-
 <div align="center">
 
-<a href="https://kkbportfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-7dd3fc?style=for-the-badge&logo=vercel&logoColor=0b1120&labelColor=0b1120" alt="portfolio"/>
-</a>
-<a href="https://github.com/kiran-devhub">
-  <img src="https://img.shields.io/badge/GitHub-7dd3fc?style=for-the-badge&logo=github&logoColor=0b1120&labelColor=0b1120" alt="github"/>
-</a>
-<a href="mailto:kiran.devhub@gmail.com">
-  <img src="https://img.shields.io/badge/Email-7dd3fc?style=for-the-badge&logo=gmail&logoColor=0b1120&labelColor=0b1120" alt="email"/>
-</a>
+[![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:0D1117&height=120&section=footer)](https://github.com/kiran-devhub)
 
 </div>
-
-<br/>
-
-<img width="100%" src="https://capsule-render.com/api?type=waving&color=0:0ea5e9,100:7dd3fc&height=120&section=footer" alt="footer banner"/>
