@@ -104,17 +104,13 @@ open_to:
 
 ---
 
-## `$ git analytics --all`
+$ git analytics --all
 
 <div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=kiran-devhub&show_icons=true&theme=nord&hide_border=true&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-devhub&layout=compact&theme=nord&hide_border=true&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9" />
-
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=kiran-devhub&show_icons=true&theme=nord&hide_border=true&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9&cache_seconds=86400" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-devhub&layout=compact&theme=nord&hide_border=true&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&cache_seconds=86400" />
 <br/>
-
 <img src="https://streak-stats.demolab.com?user=kiran-devhub&theme=nord&hide_border=true&border_radius=8&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="streak stats"/>
-
 </div>
 
 ---
