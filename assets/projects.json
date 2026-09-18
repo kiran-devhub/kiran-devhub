@@ -1,0 +1,17 @@
+{
+  "_comment": "Replace these placeholder entries with your real repositories. Each 'repo' should be 'kiran-devhub/<repo-name>'. The README's Featured Repositories section is manually written from this file today; wiring it up to github-readme-stats' repo card (?repo=) is the easiest no-code option — see SETUP.md.",
+  "featured": [
+    {
+      "repo": "kiran-devhub/REPLACE_WITH_REAL_REPO_1",
+      "blurb": "One line on what this project does and why it matters."
+    },
+    {
+      "repo": "kiran-devhub/REPLACE_WITH_REAL_REPO_2",
+      "blurb": "One line on what this project does and why it matters."
+    },
+    {
+      "repo": "kiran-devhub/REPLACE_WITH_REAL_REPO_3",
+      "blurb": "One line on what this project does and why it matters."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_comment": "Edit this file to update the README skills sections and the radar-*.svg cards (run scripts/radar.py after editing).",
+  "languages": ["JavaScript", "TypeScript", "Python", "Java", "C", "C++"],
+  "frontend": ["React", "Next.js", "HTML5", "CSS3", "Tailwind CSS"],
+  "backend": ["Node.js", "Express.js", "REST APIs", "JWT", "Clerk"],
+  "databases": ["MongoDB", "MySQL", "Supabase", "Firebase"],
+  "cloud": ["Vercel", "Netlify", "GitHub Pages"],
+  "security": ["OWASP Top 10", "Secure Auth", "bcrypt", "Web Security"],
+  "tools": ["VS Code", "Git", "Linux", "Postman", "Figma"],
+  "interests": ["Web Development", "Cybersecurity", "Open Source", "AI"],
+  "radar": [
+    { "name": "Frontend", "level": 4 },
+    { "name": "Backend", "level": 4 },
+    { "name": "Security", "level": 3 },
+    { "name": "Databases", "level": 3 },
+    { "name": "Cloud", "level": 3 },
+    { "name": "Tools", "level": 4 }
+  ]
+}

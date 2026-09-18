@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>kiran-devhub profile — local preview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    background: #11161a;
+    color: #d7e6e4;
+  }
+  header {
+    padding: 20px 28px;
+    border-bottom: 1px solid #23303380;
+  }
+  header h1 { font-size: 16px; margin: 0 0 4px; letter-spacing: 0.5px; }
+  header p { margin: 0; color: #7fa19d; font-size: 12.5px; }
+  main { padding: 28px; display: flex; flex-direction: column; gap: 36px; }
+  section h2 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #38f2d8;
+    margin: 0 0 12px;
+  }
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .swatch {
+    border-radius: 12px;
+    padding: 18px;
+    overflow: auto;
+  }
+  .swatch.dark { background: #05080c; }
+  .swatch.light { background: #eef3f4; }
+  .swatch img { max-width: 100%; height: auto; display: block; }
+  .swatch .tag {
+    font-size: 10.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .swatch.dark .tag { color: #5f8a86; }
+  .swatch.light .tag { color: #4d6567; }
+  .row { display: flex; gap: 16px; flex-wrap: wrap; }
+  .row img { flex: 1 1 260px; max-width: 100%; }
+  footer {
+    padding: 20px 28px 40px;
+    color: #52706c;
+    font-size: 11.5px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>kiran-devhub // local asset preview</h1>
+  <p>Open this file directly in a browser (no server needed) to sanity-check both
+     themes and the morph animation before pushing to GitHub.</p>
+</header>
+<main>
+  <section>
+    <h2>Hero banner</h2>
+    <div class="split">
+      <div class="swatch dark">
+        <div class="tag">dark theme</div>
+        <img src="assets/banner-dark.svg" alt="Hero banner, dark theme">
+      </div>
+      <div class="swatch light">
+        <div class="tag">light theme</div>
+        <img src="assets/banner-light.svg" alt="Hero banner, light theme">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>GitHub stats + skills radar</h2>
+    <div class="split">
+      <div class="swatch dark">
+        <div class="tag">dark theme</div>
+        <div class="row">
+          <img src="assets/card-stats-dark.svg" alt="GitHub stats, dark theme">
+          <img src="assets/radar-dark.svg" alt="Skills radar, dark theme">
+        </div>
+      </div>
+      <div class="swatch light">
+        <div class="tag">light theme</div>
+        <div class="row">
+          <img src="assets/card-stats-light.svg" alt="GitHub stats, light theme">
+          <img src="assets/radar-light.svg" alt="Skills radar, light theme">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <div class="split">
+      <div class="swatch dark">
+        <div class="tag">dark theme</div>
+        <div class="row">
+          <img src="assets/metrics.languages.svg" alt="Top languages">
+          <img src="assets/radar-langs-dark.svg" alt="Language radar, dark theme">
+        </div>
+      </div>
+      <div class="swatch light">
+        <div class="tag">light theme</div>
+        <div class="row">
+          <img src="assets/metrics.languages.svg" alt="Top languages">
+          <img src="assets/radar-langs-light.svg" alt="Language radar, light theme">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  Regenerate any of these with the scripts in <code>scripts/</code> — see
+  <code>SETUP.md</code>. This file is a local dev aid only; it is not linked from the
+  published README.
+</footer>
+</body>
+</html>
