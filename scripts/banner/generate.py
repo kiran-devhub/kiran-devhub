@@ -6,7 +6,7 @@ import cv2, numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageOps
 
 ROOT=Path(__file__).resolve().parents[2]; SOURCE=ROOT/"assets/source/kiran.png"; ASSETS=ROOT/"assets"; DATA=Path(__file__).resolve().parent/"data"
-W,H=1180,610; LOOP=16.0; INTRO=2.6; TRAVELLERS=19000; FACE_CAP=15000; SEED=20260918
+W,H=1180,610; LOOP=16.0; INTRO=2.6; TRAVELLERS=19000; FACE_CAP=15000; TRAVEL_N=1800; SEED=20260918
 # NOTE: this banner's face used to be unreadable. Root causes and fixes:
 #   1. render() only ever animated TRAVELLERS=1250 points even though
 #      portrait_points() captures 25-30k real facial-detail points — the
@@ -201,10 +201,41 @@ def render(theme,portrait,face_box,rng):
     else:
         rest_pts=rest_pts[:0]
     src=np.concatenate([face_pts,rest_pts]) if len(face_pts) else rest_pts
-    n=len(src)
+    # IMPORTANT ARCHITECTURE NOTE — read this before changing TRAVELLERS.
+    # Earlier versions animated (SMIL animateTransform) every one of these
+    # ~19000 points individually to morph portrait->shield->code->lock->
+    # portrait. That rendered perfectly in isolated PNG snapshots/tests, but
+    # on the real, live GitHub page it still looked wrong — because tens of
+    # thousands of *concurrently, individually SMIL-animated* elements is
+    # something browsers render inconsistently/poorly under real load (frame
+    # drops, imprecise sub-pixel positioning, degraded rasterization), which
+    # a static image test can't catch at all. That mismatch — "fine in my
+    # test, bad in the real browser" — is exactly what happened last round.
+    # The fix is architectural, not another size/count tweak:
+    #   - The DENSE, camera-accurate portrait (src, up to TRAVELLERS points)
+    #     is drawn with the cheap static "batch" paths below: ~32 <path>
+    #     elements total (not one per point), each just a fixed shape with
+    #     ONE opacity <animate>. That's trivial for any browser to rasterise
+    #     crisply regardless of point count, because nothing is *moving*.
+    #   - Only a SMALL subset (TRAVEL_N points) is individually animated to
+    #     actually morph into the shield/code/lock shapes. Icons are bold,
+    #     simple glyphs — they don't need thousands of points to read
+    #     clearly, so this stays light for the browser (smooth, precise)
+    #     while the dense batch layer's own opacity cycle (see below) makes
+    #     sure the *portrait* is only ever carried by the cheap, reliable
+    #     layer, never by the thing straining under thousands of animations.
+    travel_n=min(TRAVEL_N,len(src))
+    travel_idx=rng.choice(len(src),travel_n,False) if travel_n<len(src) else np.arange(len(src))
+    travel=src[travel_idx]
+    n=len(travel)
     sh=sample("shield",rng,n); co=sample("code",rng,n); lo=sample("lock",rng,n)
-    frames=[src,src,transport(src,sh),sh,transport(sh,co),co,transport(co,lo),lo,src]
+    frames=[travel,travel,transport(travel,sh),sh,transport(sh,co),co,transport(co,lo),lo,travel]
     times=[0,3,4.3,6,7.3,9,10.3,13,16]; kt=";".join(f"{x/LOOP:.4f}".rstrip("0").rstrip(".") for x in times)
+    # Portrait-visibility keytimes for the dense batch layer: opaque during
+    # the "portrait" hold (0-3s and the 13-16s wrap), transparent whenever
+    # the travellers are shaped into shield/code/lock (4.3-13s) so the two
+    # layers never fight each other.
+    vis_kt=";".join(f"{x/LOOP:.4f}".rstrip("0").rstrip(".") for x in [0,3,4.3,13,16])
     font="ui-monospace,SFMono-Regular,Consolas,monospace"
     p=[f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">
 <title id="title">Kiran Kumar Behera — Developer / Cybersecurity</title><desc id="desc">Animated terminal profile with a detailed point portrait, security shield, code and authentication lock.</desc>
@@ -217,10 +248,17 @@ def render(theme,portrait,face_box,rng):
     groups=np.array_split(np.arange(len(src)),32)
     for j,idx in enumerate(groups):
         d="".join(f"M{int(round(x))} {int(round(y))}h1" for x,y in src[idx])
-        p.append(f'<path d="{d}" fill="none" stroke="{t["portrait"]}" stroke-width="1.1" opacity="0"><animate attributeName="opacity" begin="{.02+j*.05:.3f}s" dur=".7s" values="0;1" fill="freeze"/></path>')
+        stagger=.02+j*.05
+        p.append(
+            f'<path d="{d}" fill="none" stroke="{t["portrait"]}" stroke-width="1.3" opacity="0">'
+            f'<animate attributeName="opacity" begin="{stagger:.3f}s" dur=".7s" values="0;1" fill="freeze"/>'
+            f'<animate attributeName="opacity" begin="{INTRO}s" dur="{LOOP}s" repeatCount="indefinite" '
+            f'calcMode="linear" keyTimes="{vis_kt}" values="1;1;0;0;1"/>'
+            f'</path>'
+        )
     for i in range(n):
         vals=";".join(f"{q[i,0]:.1f} {q[i,1]:.1f}" for q in frames)
-        p.append(f'<path d="M-.3-.3h.6v.6h-.6z" fill="{t["portrait"]}"><animateTransform attributeName="transform" type="translate" begin="{INTRO}s" dur="{LOOP}s" repeatCount="indefinite" calcMode="linear" keyTimes="{kt}" values="{vals}"/></path>')
+        p.append(f'<path d="M-.35-.35h.7v.7h-.7z" fill="{t["portrait"]}"><animateTransform attributeName="transform" type="translate" begin="{INTRO}s" dur="{LOOP}s" repeatCount="indefinite" calcMode="linear" keyTimes="{kt}" values="{vals}"/></path>')
     p.append(f'''</g><rect x="49" y="124" width="390" height="3" fill="{t["chrome"]}" opacity=".22"><animate attributeName="y" values="126;535;126" dur="5.5s" repeatCount="indefinite"/></rect></g><text x="58" y="551" fill="{t["muted"]}" font-family="{font}" font-size="10">PTS {len(portrait):05d} · FACE-DETAIL / SERPENTINE</text>
 <rect x="474" y="88" width="672" height="472" rx="6" fill="{t["panel2"]}" stroke="{t["line"]}"/><path d="M474 124H1146" stroke="{t["line"]}"/><text x="490" y="111" fill="{t["chrome"]}" font-family="{font}" font-size="13" font-weight="700" letter-spacing="1.2">SYSTEM.INFO</text><circle cx="915" cy="106" r="4" fill="{t["accent"]}"><animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/></circle><text x="927" y="111" fill="{t["accent"]}" font-family="{font}" font-size="12" font-weight="700">LIVE</text><rect x="982" y="94" width="146" height="24" rx="12" fill="{t["chrome"]}" opacity=".16" stroke="{t["chrome"]}"/><text x="1055" y="111" text-anchor="middle" fill="{t["chrome"]}" font-family="{font}" font-size="14" font-weight="700">@kiran-devhub</text>''')
     y=153; vr=1127
