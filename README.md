@@ -24,7 +24,56 @@
 <img src="https://komarev.com/ghpvc/?username=kiran-devhub&style=flat&color=7dd3fc&label=profile+views" alt="profile views">
 
 </div>
+---
 
+## `$ whoami`
+
+```typescript
+const kiran = {
+  username: "kiran-devhub",
+  name: "Kiran Kumar Behera",
+  role: "Developer / Cybersecurity",
+  focus: ["Secure Web Applications", "Cybersecurity"],
+  languages: ["JavaScript", "TypeScript", "Python", "Java", "C/C++"],
+  frontend: ["React", "Next.js", "HTML5", "CSS3", "Tailwind CSS"],
+  backend: ["Node.js", "Express.js", "REST APIs", "JWT", "Clerk"],
+  databases: ["MongoDB", "MySQL", "Supabase", "Firebase"],
+  cloud: ["Vercel", "Netlify", "GitHub Pages"],
+  security: ["OWASP Top 10", "Secure Auth", "bcrypt", "Protected Routes"],
+  learning: ["Web Security", "Ethical Hacking Fundamentals", "Kali Linux"],
+  status: "Building + Learning + Shipping",
+} as const;
+```
+
+---
+
+## `$ cat current_focus.yaml`
+
+```yaml
+learning:
+  - "Node.js — REST APIs, middleware architecture, auth flows"
+  - "React / Next.js — component architecture and performance"
+  - "Web security — OWASP Top 10 and secure authentication patterns"
+  - "Cybersecurity fundamentals — ethical hacking and Kali Linux"
+
+building:
+  - "Secure full-stack applications with MERN + Next.js"
+  - "Authentication systems using JWT, bcrypt, and Clerk"
+  - "Practical security-focused web projects"
+
+exploring:
+  - "AI-assisted development workflows"
+  - "Open-source contribution"
+  - "Better application security and defensive engineering"
+
+open_to:
+  - "Full Stack Developer Internships"
+  - "Entry-Level Software Engineer Roles"
+  - "Cybersecurity Internships"
+  - "Open Source Contributions"
+```
+
+---
 ---
 
 ## This is me :)
@@ -105,56 +154,7 @@ Hi, I'm **Kiran Kumar Behera**, a **Developer / Cybersecurity** enthusiast focus
 
 </div>
 
----
 
-## `$ whoami`
-
-```typescript
-const kiran = {
-  username: "kiran-devhub",
-  name: "Kiran Kumar Behera",
-  role: "Developer / Cybersecurity",
-  focus: ["Secure Web Applications", "Cybersecurity"],
-  languages: ["JavaScript", "TypeScript", "Python", "Java", "C/C++"],
-  frontend: ["React", "Next.js", "HTML5", "CSS3", "Tailwind CSS"],
-  backend: ["Node.js", "Express.js", "REST APIs", "JWT", "Clerk"],
-  databases: ["MongoDB", "MySQL", "Supabase", "Firebase"],
-  cloud: ["Vercel", "Netlify", "GitHub Pages"],
-  security: ["OWASP Top 10", "Secure Auth", "bcrypt", "Protected Routes"],
-  learning: ["Web Security", "Ethical Hacking Fundamentals", "Kali Linux"],
-  status: "Building + Learning + Shipping",
-} as const;
-```
-
----
-
-## `$ cat current_focus.yaml`
-
-```yaml
-learning:
-  - "Node.js — REST APIs, middleware architecture, auth flows"
-  - "React / Next.js — component architecture and performance"
-  - "Web security — OWASP Top 10 and secure authentication patterns"
-  - "Cybersecurity fundamentals — ethical hacking and Kali Linux"
-
-building:
-  - "Secure full-stack applications with MERN + Next.js"
-  - "Authentication systems using JWT, bcrypt, and Clerk"
-  - "Practical security-focused web projects"
-
-exploring:
-  - "AI-assisted development workflows"
-  - "Open-source contribution"
-  - "Better application security and defensive engineering"
-
-open_to:
-  - "Full Stack Developer Internships"
-  - "Entry-Level Software Engineer Roles"
-  - "Cybersecurity Internships"
-  - "Open Source Contributions"
-```
-
----
 
 ## `$ ls -la featured_repositories/`
 
