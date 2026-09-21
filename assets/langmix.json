@@ -1,0 +1,12 @@
+{
+  "title": "Development & Security Stack",
+  "_comment": "Hand-authored capability radar. Values 0-100. Edit this file to reflect your current focus.",
+  "axes": [
+    { "label": "JavaScript", "value": 88 },
+    { "label": "TypeScript", "value": 82 },
+    { "label": "Python", "value": 76 },
+    { "label": "React / Next.js", "value": 84 },
+    { "label": "Node / Express", "value": 82 },
+    { "label": "Cybersecurity", "value": 70 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Kiran's Skill Radar",
+  "_comment": "Self-rated 0-100. Edit this file and the GitHub Actions workflow redraws the radar.",
+  "axes": [
+    { "label": "React / Next.js", "value": 82 },
+    { "label": "Node.js / APIs", "value": 80 },
+    { "label": "TypeScript", "value": 78 },
+    { "label": "Python", "value": 74 },
+    { "label": "Secure Auth", "value": 78 },
+    { "label": "Web Security", "value": 72 },
+    { "label": "Database Design", "value": 74 }
+  ]
+}
